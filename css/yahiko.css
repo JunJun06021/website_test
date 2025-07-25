@@ -1,0 +1,33 @@
+#g {
+    background-color: rgb(172, 234, 172);
+}
+
+#w {
+    background-color: rgb(195, 214, 230);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    color: black;
+    background-color: rgb(255, 255, 150);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 100);
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+legend {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
